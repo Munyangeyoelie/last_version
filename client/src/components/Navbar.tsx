@@ -1,8 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import navbarItems from "../NavbarItems";
-import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import Link from "next/dist/client/link";
 
 const Navbar = ({ toggle }) => {
   return (
